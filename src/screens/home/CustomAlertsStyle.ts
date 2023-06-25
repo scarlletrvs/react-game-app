@@ -34,7 +34,27 @@ export const ContainerCustomAlert = styled.div`
   @media screen and (min-width: 285px) and (max-width: 545px) {
     width: 95%;
     height: 20%;
-    font-size: 14px;
+    font-size: 12px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    text-align: center;
+    button{
+    font-size: 10px;
+    width: 20%;
+    height: 15%;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 15px;
+    }
+  }
+
+
+  @media screen and (min-width: 200px) and (max-width: 284.9px) {
+    width: 95%;
+    height: 20%;
+    font-size: 12px;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
@@ -68,6 +88,25 @@ export const ContainerCustomAlert = styled.div`
   }
 
   @media screen and (min-width: 765px) and (max-width: 1285px) {
+    width: 90%;
+    height: 16%;
+    font-size: 22px;
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+    button{
+        font-size: 15px;
+        margin-left: 20px;
+        width: 70px;
+        height: 35px;
+        margin-top: 20px;
+       
+    }
+  }
+
+  @media screen and (min-width: 546px) and (max-width: 764.9px) {
     width: 90%;
     height: 16%;
     font-size: 22px;

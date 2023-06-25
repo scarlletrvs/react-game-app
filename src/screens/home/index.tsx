@@ -47,9 +47,10 @@ const Home = () => {
           if (error.response && error.response.status) {
             const responseError = error as { response: { status: number } };
             if (
-              [404, 500, 502, 503, 504, 506, 508, 509].includes(
+              [500, 502, 503, 504, 506, 508, 509].includes(
                 responseError.response.status
               )
+              
             ) {
               setShowAlert(true);
               setAlertMessage('O servidor fahou em responder, tente recarregar a página');
@@ -168,6 +169,7 @@ const Home = () => {
       </div>
       <Navbar />
       <BotaoVoltarTopo />
+      
 
       {loading ? (
         <Carregando />

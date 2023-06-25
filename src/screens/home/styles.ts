@@ -7,11 +7,11 @@ padding-top: 105px;
     display: flex;
     justify-content: center;
     cursor: pointer;
-     gap: 30px;
+     gap: 6px;
     
      select{
-      width: 200px;
-      height: 35px;
+      width: 20%;
+      height: 35%;
       background-color: ${props => props.theme.colors.barrapesquisa};
       color: ${props => props.theme.colors.text};
       cursor: pointer;
@@ -88,177 +88,267 @@ div {
 }
      select{
       width: 40px;
+    
       
 }}
   }
-  @media screen and (min-width: 1024px) and (max-width: 1288px){
-    padding-top:95px;
+
+  @media screen and (min-width: 1201px) and (max-width: 1289px){
+    padding-top:8%;
     input {
       width:40%;
-      height: 25px;
+      height: 20%;
       border-radius:24px;
       margin-top: 3px;
       font-size:14px;
     }
-  }
-  @media screen and (min-width: 768px) and (max-width: 818px)
-    {
-      padding-top: 94px;
-      div{
-        gap:10px;
-    input {
-      width: 40%;
-      height: 24px;
-      border-radius: 25px;
-      margin-top: 5px;
-    }
     select{
-      width: 130px;
+      width: 20%;
     }
   }
-}
-  @media screen and (min-width: 280px) and (max-width:300px){
-    padding-top: 70px;
-  div{
-    gap:8px;
-input {
-  width: 30%;
-  height: 18px;
-  border-radius: 20px;
-}
-select{
-  width: 65px;
-  height: 30px;
-  margin-bottom: 5px;
-}
-}
-}
-
-@media screen and (min-width: 370px) and (max-width: 389px) {
-  padding-top: 80px;
-  div{
-    gap:8px;
-input {
-  width: 35%;
-  height: 18px;
-  border-radius: 20px;
-}
-select{
-  width: 80px;
-  height: 30px;
-  margin-bottom: 5px;
-}
-}
-}
-
-@media screen and (min-width: 390px) and (max-width: 411px) {
-  padding-top: 80px;
-  div{
-    gap:8px;
-input {
-  width: 35%;
-  height: 18px;
-  border-radius: 20px;
-}
-select{
-  width: 80px;
-  height: 30px;
-  margin-bottom: 5px;
-  font-size: 11px;
-}
-}
-}
-
-@media screen and (min-width: 540px) and (max-width: 766px){
-  padding-top: 94px;
-      div{
-        gap:8px;
+  @media screen and (min-width: 1100px) and (max-width: 1200px){
+    padding-top:10%;
     input {
-      width: 40%;
-      height: 24px;
-      border-radius: 25px;
-      margin-top: 5px;
+      width:40%;
+      height: 20%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
     }
     select{
-      width: 115px;
-      font-size: 11px;
-      font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    option{
-      font-size: 10px;
-      width: 115px;
+      width: 20%;
     }
   }
-}
-
-@media screen and (min-width: 912px) and (max-width: 1022px) {
-  padding-top:95px;
-  div{
-    gap:10px;
-input {
-  width: 40%;
-  height: 30px;
-  border-radius: 27px;
-  margin-top: 5px;
-  font-size: 17px;
-}
-}}
-@media screen and (min-width: 360px) and (max-width: 369px){
-  padding-top: 80px;
-  div{
-    gap:8px;
-input {
-  width: 35%;
-  height: 18px;
-  border-radius: 20px;
-}
-select{
-  width: 80px;
-  height: 30px;
-  margin-bottom: 5px;
-  font-size: 11px;
-}
-}}
-@media screen and (min-width: 412px) and (max-width: 539px){
-  padding-top: 76px;
-  div{
-        gap:8px;
+  @media screen and (min-width: 1000px) and (max-width: 1100px){
+    padding-top:12%;
     input {
-      width: 35%;
-      height: 24px;
-      border-radius: 25px;
-      margin-top: 5px;
+      width:40%;
+      height: 20%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
     }
     select{
-      width: 85px;
-      font-size: 11px;
-      font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      width: 20%;
     }
-    option{
-      font-size: 10px;
-      width: 115px;
+  }
+
+
+  @media screen and (min-width: 800px) and (max-width: 999px){
+    padding-top:12%;
+    input {
+      width:30%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
     }
-  }}
-@media screen and (min-width: 820px) and (max-width: 910px) {
-  padding-top:94px;
+    select{
+      width: 10%;
+      height:25%;
+    }
+  }
 
-  div{
-input {
-  width: 40%;
-  height: 30px;
-  border-radius: 25px;
-margin-top: 5px;
-font-size: 16px;
-}
 
-select{
-  width:150px;
-  height: 309x;
-}}
-}
+
+
   
+  @media screen and (min-width: 700px) and (max-width: 799.9px){
+    padding-top:11%;
+    input {
+      width:30%;
+      height: 8%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+
+
+  @media screen and (min-width: 651px) and (max-width: 699px){
+    padding-top:11.9%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+
+
+
+  @media screen and (min-width: 600px) and (max-width: 650px){
+    padding-top:12.9%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+
+  @media screen and (min-width: 550px) and (max-width: 599px){
+    padding-top:14.3%;
+    input {
+      width:28%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 549px){
+    padding-top:14.7%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:14px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+  @media screen and (min-width: 450px) and (max-width: 499px){
+    padding-top:16.4%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 449px){
+    padding-top:18.4%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+  @media screen and (min-width: 350px) and (max-width: 399px){
+    padding-top:20.4%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 10%;
+    }
+  }
+
+
+
+  @media screen and (min-width: 300px) and (max-width: 349px){
+    padding-top:22.4%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+    }
+  }
+
+  @media screen and (min-width: 250px) and (max-width: 270px){
+    padding-top:38.4%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+    }
+
+
+
+  }
+
+  
+  @media screen and (min-width: 270px) and (max-width: 299px){
+    padding-top:24.4%;
+    input {
+      width:27%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+    }
+
+
+    
+  }
+
+  
+  @media screen and (min-width: 220px) and (max-width: 240px){
+    padding-top:45.4%;
+    input {
+      width:23%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+      font-size: 10px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 241px) and (max-width: 250px){
+    padding-top:40.4%;
+    input {
+      width:23%;
+      height: 10%;
+      border-radius:24px;
+      margin-top: 3px;
+      font-size:12px;
+    }
+    select{
+      width: 8%;
+      font-size: 10px;
+    }
+  }
 
 `;
 
